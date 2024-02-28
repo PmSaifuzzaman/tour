@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind and Daisy UI CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome icon kit -->
+    <script src="https://kit.fontawesome.com/173bbf239e.js" crossorigin="anonymous"></script>
+
+    <!-- Customized color link -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                        "primary-color": "#01B7F2",
+                    },
+                },
+            },
+        };
+    </script>
+    <title>Tour Landing page</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar section start from here -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div>
+                    <ul class="flex gap-5 font-bold">
+                        <li>
+                            <i class="fa-solid fa-plane"></i> Find Flight
+                        </li>
+                        <li class="text-primary-color">
+                            <i class="fa-solid fa-calendar-days"></i> Find Stays
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-ship"></i> Find Cruise
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-car"></i> Find Cars
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-center">
+                <a class="btn btn-ghost text-3xl font-bold text-primary-color"> <i
+                        class="fa-solid fa-earth-americas"></i> TOOR</a>
+            </div>
+            <div class="navbar-end flex">
+                <div>
+                    <ul class="font-bold pr-10">
+                        <li>
+                            <i class="fa-solid fa-heart"></i> Favorites
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="pr-10">|</p>
+                </div>
+                <div class="avatar online">
+                    <div class="w-14 rounded-full">
+                        <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                    </div>
+                </div>
+                <p class="pl-2">John D.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
