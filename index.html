@@ -75,35 +75,140 @@
 
         <!-- Banner section start -->
         <Section>
-            <div class="hero h-96" style="background-image: url(https://i.ibb.co/vQTnFPG/full-shot-travel-concept-with-landmarks.jpg);">
+            <div class="hero h-96"
+                style="background-image: url(https://i.ibb.co/vQTnFPG/full-shot-travel-concept-with-landmarks.jpg);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
-                  <div >
-                    <h1 class="text-3xl font-bold">Upto 25% off on first booking <br>
-                        <span class="text-primary-color">Car</span> through your app!</h1>
-                    <div class="pt-5">
-                        <ul class="text-lg flex gap-5">
-                            <li>
-                                <i class="fa-solid fa-dollar-sign text-primary-color"></i> Best Price Guaranteed
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-car text-primary-color"></i> Home Pickups
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-laptop text-primary-color"></i> Easy Bookings
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-headphones text-primary-color"></i> 24/7 Customer Care
-                            </li>
-                        </ul>
+                    <div>
+                        <h1 class="text-3xl font-bold">Upto 25% off on first booking <br>
+                            <span class="text-primary-color">Car</span> through your app!
+                        </h1>
+                        <div class="pt-5">
+                            <ul class="text-lg flex gap-5">
+                                <li>
+                                    <i class="fa-solid fa-dollar-sign text-primary-color"></i> Best Price Guaranteed
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-car text-primary-color"></i> Home Pickups
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-laptop text-primary-color"></i> Easy Bookings
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-headphones text-primary-color"></i> 24/7 Customer Care
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </Section>
+
+        <!-- overlay section -->
+        <section class="max-w-5xl mx-auto hidden lg:block">
+
+            <div class="-mt-24 absolute bg-white shadow-lg py-6 px-10 rounded-lg">
+                <h3 class="pb-3 text-xl font-bold">
+                    Where are you Stay?
+                </h3>
+                <div class="flex gap-8 ">
+
+                    <div>
+                        <span class="label label-text">Enter Destination</span>
+                        <div class="flex items-center">
+                            <input type="text" placeholder="Jaipur, Rajasthan"
+                                class="input input-bordered w-full max-w-xs " />
+                            <i class="fa-solid fa-car ml-[-24px]"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="label label-text">Check In</span>
+                        <div class="flex items-center">
+                            <input type="text" placeholder="Fri 12/2023 "
+                                class="input input-bordered w-full max-w-xs" />
+                            <i class="fa-solid fa-calendar-days ml-[-24px]"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="label label-text">Check Out</span>
+                        <div class="flex items-center">
+                            <input type="text" placeholder="Sun 16/2023" class="input input-bordered w-full max-w-xs" />
+                            <i class="fa-solid fa-calendar-days ml-[-24px]"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="label label-text">Rooms & Guests</span>
+                        <select class="select select-bordered w-full max-w-xs">
+                            <option disabled selected>1 room, 2 guests</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex justify-end">
+                    <button class="mt-3 btn btn-sm bg-[#172432] text-white">Show Result</button>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
+        <!-- About us section -->
+        <section class="avout-us bg-primary-color px-14 pt-32">
+            <div class="flex justify-between">
+                <div class="w-1/2 text-white">
+                    <h3 class="text-3xl font-bold pt-10 pb-3">About Us</h3>
+                    <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie,
+                        musica, sport etc, litot Europa usa li sam vocabular. Li Europan lingues es membres del sam
+                        familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li
+                        sam vocabular.</p>
+                    
+                    <div>
+                        <h3 class="text-2xl font-bold py-3">Why Choose Toor </h3>
+                        <div class="grid grid-cols-2 gap-5">
+                            <div>
+                                <h5 class="font-bold text-xl">Personalized Service</h5>
+                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt.</p>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-xl">24x7 Support</h5>
+                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt.</p>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-xl">Best Price</h5>
+                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt.</p>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-xl">Trusted Company</h5>
+                                <p>Lorem ipsum dolor sit amet consect adiu piscing elit sed diam nonum euismo tincidunt.</p>
+                            </div>
+                        </div>
+                        <button class="btn bg-white text-black rounded-full px-5 py-2 mt-8">Explore Now</button>
+                    </div>
+                </div>
+                <div class=" grid grid-cols-2 gap-3 relative">
+                    <div class="relative">
+                        <img class="rounded-2xl w-72 h-64 border-white border-4" src="./images/biman.jpg" alt="">
+                        <p class="absolute bottom-0 left-0 text-white px-2 py-1 ml-3 mb-3 font-bold">Book Flights <br>
+                        <span class="font-thin">1250 offers</span></p>
+                        
+                    </div>
+                    <div class="relative ">
+                        <img class="rounded-2xl w-72 h-64 border-white border-4"  src="./images/hotel.jpg" alt="">
+                        <p class="absolute bottom-0 left-0 text-white px-2 py-1 ml-3 mb-3 font-bold">Book Hotels <br>
+                            <span class="font-thin">1250 Locations</span></p>
+                    </div>
+                    <div class="relative ">
+                        <img class="rounded-2xl w-72 h-64 border-white border-4"  src="./images/ship.jpg" alt="">
+                        <p class="absolute bottom-0 left-0 text-white px-2 py-1 ml-3 mb-3 font-bold">Book CRUISES <br>
+                            <span class="font-thin">1250 Locations</span></p>
+                    </div>
+                    <div class="relative ">
+                        <img class="rounded-2xl w-72 h-64 border-white border-4"  src="./images/travell.jpg" alt="">
+                        <p class="absolute bottom-0 left-0 text-white px-2 py-1 ml-3 mb-3 font-bold">Book Tours <br>
+                            <span class="font-thin">1250 Locations</span></p>
+                    </div>
+                </div>                
+            </div>
 
+        </section>
     </main>
     <footer>
 
